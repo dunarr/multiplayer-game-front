@@ -1,0 +1,15 @@
+{
+  "name": "enssopcraft_front",
+  "version": "1.0.0",
+  "description": "client electron for enssopcraft ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.5"
+  }
+}
