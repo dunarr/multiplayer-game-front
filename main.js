@@ -6,13 +6,13 @@ let win
 
 function createWindow () {
   // Créer le browser window.
-  win = new BrowserWindow({ width: 800, height: 600, fullscreen: true })
+  win = new BrowserWindow({ width: 1920, height: 1080, fullscreen: false })
   win.setMenu(null)
   // et charge le index.html de l'application.
   win.loadFile('index.html')
 
   // Ouvre les DevTools.
-  win.webContents.openDevTools()
+  // win.webContents.openDevTools()
 
   // Émit lorsque la fenêtre est fermée.
   win.on('closed', () => {
